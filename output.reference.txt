@@ -1,0 +1,120 @@
+$ java FoodVendor
+Using file: food.txt
+Reading food from file: food.txt
+new Food: Toast(name: Avocado-toast, calories: 375, price: $4.75, StarchLocation(cnt=1, "bottom"))
+new Food: Salad(name: House-Salad, calories: 550, price: $3.36)
+new Food: Sandwich(name: Grilled-Cheese, calories: 620, price: $4.92, StarchLocation(cnt=2, "bottom & top"))
+new Food: Toast(name: Pizza-plain, calories: 222, price: $3.00, StarchLocation(cnt=1, "bottom"))    
+new Food: Toast(name: Nigiri-Sushi, calories: 150, price: $4.20, StarchLocation(cnt=1, "bottom"))   
+new Food: Sandwich(name: Reuben, calories: 720, price: $6.50, StarchLocation(cnt=2, "bottom & top"))
+new Food: Salad(name: Chef-Salad, calories: 970, price: $8.25)
+new Food: Salad(name: Steak, calories: 1200, price: $21.42)
+new Food: Sandwich(name: PB&J, calories: 515, price: $1.00, StarchLocation(cnt=2, "bottom & top"))  
+
+Select an Operation
+1. View Foods
+2. Search by food name
+3. Sort by food calories
+4. Sort by food price
+5. Exit
+1
+
+Food:
+|    Type|           Name|Calories|Price|Starch count|  Starch loc|
+-------------------------------------------------------------------
+|   Toast|  Avocado-toast|     375| 4.75|           1|      bottom|
+|   Salad|    House-Salad|     550| 3.36|            |            |
+|Sandwich| Grilled-Cheese|     620| 4.92|           2|bottom & top|
+|   Toast|    Pizza-plain|     222| 3.00|           1|      bottom|
+|   Toast|   Nigiri-Sushi|     150| 4.20|           1|      bottom|
+|Sandwich|         Reuben|     720| 6.50|           2|bottom & top|
+|   Salad|     Chef-Salad|     970| 8.25|            |            |
+|   Salad|          Steak|    1200|21.42|            |            |
+|Sandwich|           PB&J|     515| 1.00|           2|bottom & top|
+
+Select an Operation
+1. View Foods
+2. Search by food name
+3. Sort by food calories
+4. Sort by food price
+5. Exit
+2
+Enter a food name to search for
+Chef
+Searching for: Chef
+Searching for name starting with chef
+Comparing chef against: avocado-toast
+Comparing chef against: house-salad
+Comparing chef against: grilled-cheese
+Comparing chef against: pizza-plain
+Comparing chef against: nigiri-sushi
+Comparing chef against: reuben
+Comparing chef against: chef-salad
+Found food: Salad(name: Chef-Salad, calories: 970, price: $8.25)
+
+Select an Operation
+1. View Foods
+2. Search by food name
+3. Sort by food calories
+4. Sort by food price
+5. Exit
+2
+Enter an Computer name to search for
+chef
+Searching for: chef
+Invalid Food name format; Must begin with a capital letter, contain letters only, and be less than 21 characters.
+Found food: null
+
+
+Select an Operation
+1. View Foods
+2. Search by food name
+3. Sort by food calories
+4. Sort by food price
+5. Exit
+3
+
+Food:
+|    Type|           Name|Calories|Price|Starch count|  Starch loc|
+-------------------------------------------------------------------
+|   Toast|   Nigiri-Sushi|     150| 4.20|           1|      bottom|
+|   Toast|    Pizza-plain|     222| 3.00|           1|      bottom|
+|   Toast|  Avocado-toast|     375| 4.75|           1|      bottom|
+|Sandwich|           PB&J|     515| 1.00|           2|bottom & top|
+|   Salad|    House-Salad|     550| 3.36|            |            |
+|Sandwich| Grilled-Cheese|     620| 4.92|           2|bottom & top|
+|Sandwich|         Reuben|     720| 6.50|           2|bottom & top|
+|   Salad|     Chef-Salad|     970| 8.25|            |            |
+|   Salad|          Steak|    1200|21.42|            |            |
+
+
+
+Select an Operation
+1. View Foods
+2. Search by food name
+3. Sort by food calories
+4. Sort by food price
+5. Exit
+4
+
+Food:
+|    Type|           Name|Calories|Price|Starch count|  Starch loc|
+-------------------------------------------------------------------
+|Sandwich|           PB&J|     515| 1.00|           2|bottom & top|
+|   Toast|    Pizza-plain|     222| 3.00|           1|      bottom|
+|   Salad|    House-Salad|     550| 3.36|            |            |
+|   Toast|   Nigiri-Sushi|     150| 4.20|           1|      bottom|
+|   Toast|  Avocado-toast|     375| 4.75|           1|      bottom|
+|Sandwich| Grilled-Cheese|     620| 4.92|           2|bottom & top|
+|Sandwich|         Reuben|     720| 6.50|           2|bottom & top|
+|   Salad|     Chef-Salad|     970| 8.25|            |            |
+|   Salad|          Steak|    1200|21.42|            |            |
+
+Select an Operation
+1. View Foods
+2. Search by food name
+3. Sort by food calories
+4. Sort by food price
+5. Exit
+5
+Goodbye
